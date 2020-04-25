@@ -34,7 +34,7 @@
         "indent_with_tabs": false,
 
         // Maximum number of line breaks to be preserved in one chunk (0 disables)
-        "max_preserve_newlines": 0,
+        "max_preserve_newlines": 5,
 
         // Whether existing line breaks before elements should be preserved (only works before elements, not inside tags or for text)
         "preserve_newlines": true,
@@ -58,7 +58,7 @@
         "indent_inner_html": false,
 
         // [keep|separate|normal]
-        "indent_scripts": "keep",
+        "indent_scripts": "normal",
 
         // List of tags that should not be reformatted.  This should generally not be needed. 
         "unformatted": [],
@@ -91,7 +91,7 @@
         // You can add other .jsbeautifyrc rules in this section too.
 
         // [collapse|collapse-preserve-inline|expand|end-expand|none] Put braces on the same line as control statements (default), or put braces on own line (Allman / ANSI style), or put end braces on own line, or attempt to keep them where they are
-        "brace_style": "collapse-preserve-inline",
+        "brace_style": "collapse",
 
         // Break chained method calls across subsequent lines
         "break_chained_methods": false,
